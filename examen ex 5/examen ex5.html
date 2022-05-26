@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>exercitiul 5</title>
+   introduceti prima nota <input id="nota1" type="number"> <br />
+   introduceti a doua  nota <input id="nota2" type="number"> <br />
+   <button onclick="media()">Calculeaza media</button>
+
+   <script type="text/javascript">
+
+    function media(){
+     var nota1 = parseFloat(document.getElementById("nota1").value);
+     var nota2 = parseFloat(document.getElementById("nota2").value);
+
+     var media = (nota1 + nota2)/2 ;
+
+     if(media >= 5)
+      if(media==10)
+       alert("");
+      else
+       alert("media aprobata "+media);
+     else
+      alert("nu este  admis!")
+
+    }
+ </script>
+
+ </head>
+</html>
